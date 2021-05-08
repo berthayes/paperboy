@@ -4,7 +4,7 @@
 # and call a python script to upload the results to myremarkable.com
 
 # where downloaded newspapers.pdf get written
-newspaper_dir="~/newspapers"
+newspaper_dir="./newspapers"
 
 # File which is a list of Calibre news recipes
 newspapers="dailies.txt"
