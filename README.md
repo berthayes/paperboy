@@ -4,3 +4,6 @@ Use ```ebook-convert``` from [Calibre](https://calibre-ebook.com/) to download y
 ### To Run:
   - Make sure you register your "device" - the API client - to get an auth token.  http://rmapi.subutux.be/quickstart.html#registering-the-api-client
   - You'll want to either edit the ```fetch_paper.sh``` script or create a ```~/newspapers``` directory; this is where downloaded PDF newspapers are written.
+
+### To Help:
+  - SUPPORT LOCAL JOURNALISM!
