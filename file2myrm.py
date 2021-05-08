@@ -10,7 +10,7 @@ from rmapy.document import ZipDocument
 from datetime import date
 import sys
 
-# The name of the Folder in "My Files" in the ReMarkable app
+# The name of the Folder in "My Files" in the reMarkable app
 remarkable_folder = "sunday_paper"
 
 today = date.today()
