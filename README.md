@@ -9,7 +9,9 @@ Use ```ebook-convert``` from [Calibre](https://calibre-ebook.com/) to download y
 If you have Calibre installed in Linux, you can edit ```fetch_paper.sh``` accordingly and run from Cron.
 
 If you have Calibre installed in MacOS, cron is deprecated in favor of [launchd](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html) . 
-  - Use this very short [article](https://medium.com/@chetcorcos/a-simple-launchd-tutorial-9fecfcf2dbb3) and the included ```com.paperboy.daemon.plist``` file to get daily delivery.
+  - Use this very short [article](https://medium.com/@chetcorcos/a-simple-launchd-tutorial-9fecfcf2dbb3) and the included ```com.paperboy.daemon.plist``` file to get daily delivery.  
+  - Edit the ```com.paperboy.daemon.plist``` file to replace "bert" with your username.
+  - This will download your dailies at 06:00 local time every morning.
 
 ### To Help:
   - SUPPORT LOCAL JOURNALISM!
